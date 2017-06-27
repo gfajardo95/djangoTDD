@@ -3,3 +3,8 @@
 "__pycache" 
 "*.pyc" 
 ".idea" 
+/djangoTDD/geckodriver.log
+/db.sqlite3
+.idea/
+djangoTDD/__pycache__/
+/geckodriver.log
