@@ -56,6 +56,7 @@ class NewVisitorTest(unittest.TestCase):
         # the item is added to the previous list
         self.check_for_row_in_table('1: Buy peacock feathers')
         self.check_for_row_in_table('2: Use peacock feathers to make a fly')
+
         # A url is generated where the User can go to and see their created list
         self.fail('Finish the test!')
 
