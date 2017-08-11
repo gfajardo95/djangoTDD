@@ -101,6 +101,6 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertNotEqual(new_user_url, user_url)
 
         # double check that previous user's data is not on the page, but new user's IS
-        page_text = self.browser.find_elements_by_tag_name('body').text
+        page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertIn('Buy milk', page_text)
